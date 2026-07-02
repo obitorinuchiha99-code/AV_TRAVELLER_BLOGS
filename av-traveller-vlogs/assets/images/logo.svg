@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 220 220" role="img" aria-labelledby="title desc">
+  <title id="title">AV Traveller Vlogs</title>
+  <desc id="desc">Premium blue travel logo with road, car, airplane and location pin.</desc>
+  <defs>
+    <linearGradient id="blue" x1="28" y1="20" x2="186" y2="202" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#60e7ff"/>
+      <stop offset=".45" stop-color="#2877ff"/>
+      <stop offset="1" stop-color="#8b5cf6"/>
+    </linearGradient>
+    <linearGradient id="silver" x1="62" y1="78" x2="160" y2="141" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#ffffff"/>
+      <stop offset="1" stop-color="#9cc5ff"/>
+    </linearGradient>
+    <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="5" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+  <rect width="220" height="220" rx="46" fill="#061527"/>
+  <circle cx="110" cy="110" r="83" fill="none" stroke="url(#blue)" stroke-width="10" opacity=".95"/>
+  <path d="M110 39c22 0 40 18 40 40 0 31-40 72-40 72S70 110 70 79c0-22 18-40 40-40Z" fill="url(#blue)" filter="url(#glow)"/>
+  <circle cx="110" cy="79" r="15" fill="#061527"/>
+  <path d="M61 159c22-18 42-27 60-27 18 0 31 9 39 27" fill="none" stroke="#e7f8ff" stroke-width="9" stroke-linecap="round"/>
+  <path d="M98 136 76 176M122 136l22 40" stroke="#2ee9ff" stroke-width="5" stroke-linecap="round"/>
+  <path d="M67 123h86l15 17H54l13-17Z" fill="url(#silver)"/>
+  <path d="M75 112h59l18 11H64l11-11Z" fill="#7ddcff"/>
+  <circle cx="80" cy="143" r="9" fill="#061527" stroke="#e7f8ff" stroke-width="5"/>
+  <circle cx="143" cy="143" r="9" fill="#061527" stroke="#e7f8ff" stroke-width="5"/>
+  <path d="m150 58 30-12-14 29 24 13-31 6-12 30-9-31-29-11 30-10 11-14Z" fill="#ffffff" opacity=".92"/>
+  <text x="110" y="198" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="23" font-weight="800" fill="#ffffff" letter-spacing="1">AV</text>
+</svg>
+

@@ -1,0 +1,9 @@
+User-agent: *
+Allow: /
+Disallow: /admin/
+Disallow: /config/
+Disallow: /includes/
+Disallow: /api/
+
+Sitemap: https://avtravellervlogs.com/sitemap.xml
+
